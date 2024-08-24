@@ -1,0 +1,163 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+#menuesquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+#menudireito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    transition: 1s all;
+}
+
+
+.link{
+    opacity: 80%;   
+}
+
+.link:hover{
+    opacity: 40%;
+}
+
+video{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1
+}
+
+#principal{
+    display: flex;
+    margin-left: 3%;
+}
+
+.conteudo{
+    margin-top: 30px;
+    /*justify-content: space-around;*/
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    opacity: 80%;
+    margin-left: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+#botao1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;  
+    font-size: large;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+    transition: .5s all;
+    padding: 15px;
+}
+
+#botao1:hover{
+    opacity: 70%;
+}
+
+#botao2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+    font-size: large;
+    background-color: black;
+    opacity: 80%;
+    width: 210px;
+    height: 50px;
+    border-radius: 4px;
+    transition: .5s all;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#botao2:hover{
+    opacity: 50%;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 80%; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#secundario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+    transition: 1s all;
+}
+
+.midia{
+    width: 19%;
+    height: 200px;
+}
+
+.midia img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.midia:hover{
+    margin-bottom: 20px;
+}
