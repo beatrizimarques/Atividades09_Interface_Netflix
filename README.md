@@ -1,2 +1,2 @@
-# Atividades_PROA
- Atividades realizadas no curso PROAProfissão.
+# Atividade_Interface_Netflix
+ Reprodução da página Home da Netflix com HTMLL e CSS, atividades realizada no curso PROAProfissão.
